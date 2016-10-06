@@ -22,7 +22,7 @@
       <h3>
 <a id="welcome-to-the-cache-project" class="anchor" href="#welcome-to-the-cache-project" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Welcome to The Cache Project</h3>
 
-<p>Goal is to convince web server administrators to create more meaningful page headers so cache servers can cache content.</p>
+<p>The goal is to convince web server administrators to create more meaningful page headers so cache servers can cache content.</p>
 
 <h3>
 <a id="problem" class="anchor" href="#problem" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Problem</h3>
@@ -36,22 +36,22 @@
 <li>Vary</li>
 </ul>
 
-<p>If you see the traffic which gets out from networks you can see the biggest traffic hogs of our times are updates, If you look closely you can see browser updates, your application updates (iTunes,google play store) and adobe, java updates(if you still have enabled) are the main source of bandwidth hog.</p>
+<p>If you see the traffic which gets out from networks you can see the biggest traffic hogs of our times are updates, If you look closely you can see browser updates, your application updates (iTunes,google play store) and adobe, java updates(if you still have enabled) are the main sources of bandwidth hog.</p>
 
-<p>If you are maintaining a network with developers you will know how big of a problem google android developer tools and frameworks updates and Github Repos are. Due to cache config problems most of the content i have listed here and above is very difficult to cache.</p>
+<p>If you are maintaining a network with developers you will know how big of a problem google android developer tools and frameworks updates and Github Repos are. Due to cache config problems, most of the content  listed here and above is very difficult to cache.</p>
 
 <p>i.e.</p>
 
-<p>1) If you are handling network of 500 users and all of them have chrome installed. Chrome binary is of around 50 MB. and in a week it updates at-least once. due to its Vary headers right now cache servers cannot cache it. So to calculate the bandwidth 500*50 = 25000 MB or 25 GB, just for that one browser upgrade. think about it if google have right config operations set your cache can save 24.9 GB's for you. It will also help google to serve more clients as they want be </p>
+<p>1) If you are handling the network of 500 users and all of them have chrome installed. Chrome binary is around 50 MB. and in a week it updates at least once. due to its Vary headers right now cache servers cannot cache it. So to calculate the bandwidth 500*50 = 25000 MB or 25 GB, just for that one browser upgrade. think about it if google has right config operations set your cache can save 24.9 GB's for you. It will also help google to serve more clients as their network resources are not used once the initial request is cached.</p>
 
-<p>If you have developers working on projects then you can find similarly GitHub repository's usage very high but again due to GitHub's servers not having server config which can allow cache server to cache then significant amount of bandwidth can be saved and network load can also be reduced. and same time github will save precious server resources as content is stored on cache and retrieve by cache server.</p>
+<p>If you have developers working on projects then you can find similarly GitHub repository's usage very high but again due to GitHub's servers not having server config which can allow cache server to cache then a significant amount of bandwidth can be saved and network load can also be reduced. and same time Github will save precious server resources as content is stored in a cache and retrieve by the cache server.</p>
 
 <h3>
 <a id="solution" class="anchor" href="#solution" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Solution</h3>
 
 <p>The project will provide ideal configurations for different type of servers. So system administrators can use it in their projects. Once they implement this configuration cache servers can cache those resources.</p>
 
-<p>To push this to bigger networks like google and github we will need help from you and others whom you can send this message. If we all try together we can push our message to bigger companies and that way we can resolve the issue.</p>
+<p>To push this to bigger networks like google and GitHub we will need help from you and others whom you can send this message. If we all try together we can push our message to bigger companies and that way we can resolve the issue.</p>
 
 <h3>
 <a id="benefits" class="anchor" href="#benefits" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Benefits</h3>
