@@ -1,0 +1,6 @@
+{
+  "name": "Thecacheproject",
+  "tagline": "The cache project's goal is to convince web server administrators to create more meaningful content headers so cache servers can cache content.",
+  "body": "### Welcome to The Cache Project\r\nGoal is to convince web server administrators to create more meaningful page headers so cache servers can cache content.\r\n\r\n### Problem\r\nHTTP has changed significantly since HTTP 1.1. There are lots of features which can be use effectively to cache pages. There are so many signals now that can be used to effectively cache a particular content.\r\n\r\n* Cache-Control\r\n* Expires header\r\n* ETag\r\n* Vary",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
